@@ -27,7 +27,8 @@ jobs:
 
     - name: Build docker image
       run: |
-        docker build --tag agusci21/graphql-actions:0.0.2 .
+        docker build --tag agusci21/graphql-actions:0.0.3 .
+        docker build --tag agusci21/graphql-actions:latest .
         
     - name: Push docker image
       run: |
