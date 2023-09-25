@@ -32,6 +32,7 @@ jobs:
     - name: Push docker image
       run: |
         docker push agusci21/graphql-actions:0.0.2
+        docker push agusci21/graphql-actions:latest
       
 #    - name: Build the Docker image
 #      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
